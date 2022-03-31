@@ -1,3 +1,4 @@
+//const socket = io('http://localhost:3000')
 const socket = io('https://testchatroomwebdevsimplified.herokuapp.com/')
 const messageContainer = document.getElementById('message-container')
 const roomContainer = document.getElementById('room-container')

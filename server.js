@@ -31,6 +31,7 @@ app.get('/:room', (req, res) => {
   res.render('room', { roomName: req.params.room })
 })
 
+// server.listen(3000)
 server = http.Server(app);
 server.listen(process.env.PORT || 3000);
 
